@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+body{
+    background-color: #81749c;
+    text-align: center;
+    margin: 0;
+    display: flex;flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(ca);
+
+}
+h1{
+    color: #fcfce2;
+}
+
+
+
+#calculator{
+    max-width: 360px;
+    background-color: #4d3e6b;
+    border-radius: 13px;
+    padding: 18px;
+    box-shadow: 0 30px 35px rgba(10, 81, 109, .5) ;
+}
+
+#display{
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    padding: 20px;
+    border-radius: 3px;
+    color: #000c0c;
+    background-color: #c5dfe0;
+    border: none;
+    box-sizing: border-box;
+}
+
+button{
+    width: calc(25% - 12px);
+    height: 50px;
+    font-size: 22px;
+    margin: 10px 5px;
+    border: none;
+    float: left;
+    border-radius: 13px;
+    background-color: #8daec3;
+}
+
+.operator{
+    color: #000c0c;
+background-color: #fcfce2;
+}
+
+#ac{
+    color: #4d3e6b;
+}
+
+.equal{
+    color: #4d3e6b;
+    background-color: #fcfce2;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.9);
+    box-shadow: 1px 1px 1px;
+}
+
+footer{
+    background-color: #8daec3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 2.5px;
+    color: #4d3e6b;
+    text-align: center;
+    display: block;
+    position: fixed;
+    width: 100%;
+    bottom:0 ;
+    font-size: 25px;
+}
